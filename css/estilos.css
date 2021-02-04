@@ -175,12 +175,6 @@ header label:hover {
     header label {
         display: block;
     }
-    .label__spam {
-        color: var(--blanco);
-        padding: 1rem;
-        margin: 0;
-        text-align: start;
-    }
     .menu {
         position: absolute;
         background: var(--secundario);
@@ -219,6 +213,12 @@ header label:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    line-height: 2;
+}
+
+.contenido-hero p {
+    font-size: 2rem;
 }
 
 h2.como {
