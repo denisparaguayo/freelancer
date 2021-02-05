@@ -148,11 +148,8 @@ header label:hover {
     list-style: none;
     padding: 0;
     display: flex;
-    /*importantisimo en filas horizontal*/
-    /* justify-content: flex-end;* para que se valla a la derecha*/
     justify-content: center;
     flex-direction: row;
-    /*importantisimo lo pone en vertical*/
 }
 
 .menu li {
