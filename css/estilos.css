@@ -251,7 +251,7 @@
             margin-top: 2rem;
         }
         .servicio p {
-            line-height: normal;
+            line-height: 2;
         }
     }
     
@@ -263,7 +263,7 @@
     
     .servicio h3 {
         color: var(--secundario);
-        font-weight: normal;
+        font-weight: 2;
     }
     
     .servicio p {
@@ -346,7 +346,7 @@
         color: var(--oscuro);
     }
     
-    */ .responsive__contenido {
+    .responsive__contenido {
         display: flex;
         flex-direction: column;
         align-items: center;
