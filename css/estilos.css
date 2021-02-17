@@ -371,15 +371,6 @@
         justify-content: flex-end;
     }
     
-    .footer {
-        text-align: center;
-    }
-    
-    .footer a {
-        text-decoration: none;
-        color: var(--oscuro);
-    }
-    
     .responsive__titulo {
         color: var(--secundario);
         font-weight: normal;
@@ -389,4 +380,77 @@
         line-height: 2;
         text-align: center;
         color: var(--gris);
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right, #a158e4, #3243db)
+    }
+    
+    footer div {
+        padding: 1rem;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .05);
+        background: var(--oscuro);
+        margin: 0 auto;
+        margin-top: 3rem;
+        text-align: center;
+        color: var(--blanco);
+        font-size: 1.2rem;
+    }
+    
+    a.tuto {
+        color: #fff;
+        font-size: 35px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        text-decoration: none;
+    }
+    /* Pulse Heart */
+    
+    .pulse-heart {
+        color: #ef1b55;
+        -webkit-animation-name: pulse-heart;
+        animation-name: pulse-heart;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear
+    }
+    
+    @-webkit-keyframes pulse-heart {
+        0% {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1)
+        }
+        50% {
+            -webkit-transform: scale(0.8);
+            transform: scale(0.8)
+        }
+        100% {
+            -webkit-transform: scale(1);
+            transform: scale(1)
+        }
+    }
+    
+    @keyframes pulse-heart {
+        0% {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1)
+        }
+        50% {
+            -webkit-transform: scale(0.8);
+            transform: scale(0.8)
+        }
+        100% {
+            -webkit-transform: scale(1);
+            webkit-transform: scale(1)
+        }
+    }
+    
+    .footer__link {
+        text-decoration: none;
+        color: var(--blanco);
     }
