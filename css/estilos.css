@@ -26,7 +26,8 @@
     
     body {
         font-size: 16px;
-        font-family: 'Krub', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right, #a158e4, #3243db)
     }
     
     h1 {
@@ -190,7 +191,7 @@
     
     .hero {
         z-index: -1;
-        background-image: url(../img/hero.jpg);
+        background-image: url(../img/web_denis.webp);
         background-repeat: no-repeat;
         background-size: cover;
         height: 450px;
@@ -380,11 +381,6 @@
         line-height: 2;
         text-align: center;
         color: var(--gris);
-    }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: linear-gradient(to right, #a158e4, #3243db)
     }
     
     footer div {
