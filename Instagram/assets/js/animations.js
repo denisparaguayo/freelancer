@@ -29,3 +29,9 @@ const setTransitions = () => {
 };
 // setInterval(setTransitions, 1000);
 setTransitions();
+
+var year = new Date().getFullYear();
+
+        var date = `&copy;  2019 -  ${year}. Todos los Derechos Reservados.`;
+        
+        document.getElementsByClassName('year')[0].innerHTML = date;
