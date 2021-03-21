@@ -93,7 +93,7 @@
         margin: 0 auto;
     }
 
-    @media (min-width: 480px){
+    @media (min-width: 360px){
         .contenedor{
             max-width: 90%;
         }
