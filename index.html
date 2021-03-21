@@ -86,7 +86,7 @@
             <p class="responsive__parrafo">Ofrezco una amplia gama de Servicios de Desarrollo Web. Mis servicios incluyen Diseño Web, Desarrollo Web, Soporte Técnico , Experiencia de visualización óptima en una amplia gama de dispositivos.</p>
 
 
-            <main class="servicios">
+            <div class="servicios">
 
                 <section class="servicio">
                     <h3>Diseño Web</h3>
@@ -123,49 +123,50 @@
 
                     <p>Hoy en día accedemos a sitios web desde todo tipo de dispositivos; ordenador, tablet, smartphone… por lo que, cada vez más, nos surge la necesidad de que nuestra web se adapte a los diferentes tamaños de los mismos</p>
                 </section> -->
-            </main>
+            </div>         
 
 
 
 
             <section>
                 <h2 class="contacto">Contacto</h2>
+                <form name="web denis" netlify class="formulario">
+                    <fieldset>
+    
+                        <legend>Contactame Llenando los Campos</legend>
+    
+                        <div class="contenedor-campo">
+    
+                            <div class="campo">
+                                <label for="nombre">Nombre</label>
+                                <input class="input-text" name="nombre" type="text" id="nombre" placeholder="Tu Nombre" required>
+                            </div>
+    
+                            <div class="campo">
+                                <label for="telefono">Telefono</label>
+                                <input class="input-text" type="tel" name="telefono" id="telefono" placeholder="Tu Numero de telefono" required>
+                            </div>
+    
+                            <div class="campo">
+                                <label for="correo">Correo</label>
+                                <input class="input-text" type="email" name="correo" id="correo" placeholder="Tu Correo" required>
+                            </div>
+                            <div class="campo">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea class="input-text" id="mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+                            </div>
+    
+                        </div>
+    
+                    </fieldset>
+                    <div class="enviar">
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+    
+                </form>
             </section>
 
-            <form name="web denis" netlify class="formulario">
-                <fieldset>
-
-                    <legend>Contactame Llenando los Campos</legend>
-
-                    <div class="contenedor-campo">
-
-                        <div class="campo">
-                            <label for="nombre">Nombre</label>
-                            <input class="input-text" name="nombre" type="text" id="nombre" placeholder="Tu Nombre" required>
-                        </div>
-
-                        <div class="campo">
-                            <label for="telefono">Telefono</label>
-                            <input class="input-text" type="tel" name="telefono" id="telefono" placeholder="Tu Numero de telefono" required>
-                        </div>
-
-                        <div class="campo">
-                            <label for="correo">Correo</label>
-                            <input class="input-text" type="email" name="correo" id="correo" placeholder="Tu Correo" required>
-                        </div>
-                        <div class="campo">
-                            <label for="mensaje">Mensaje</label>
-                            <textarea class="input-text" id="mensaje" name="mensaje" cols="30" rows="10" required></textarea>
-                        </div>
-
-                    </div>
-
-                </fieldset>
-                <div class="enviar">
-                    <input class="boton" type="submit" value="Enviar">
-                </div>
-
-            </form>
+            
     </main>
 
 
