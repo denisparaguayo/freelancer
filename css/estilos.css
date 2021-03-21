@@ -307,7 +307,7 @@
     
     @media (min-width:768px) {
         .formulario {
-            max-width: 95%;
+            max-width: 600px;
             margin: 0 auto;
         }
     }
