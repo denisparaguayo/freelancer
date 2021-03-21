@@ -289,7 +289,7 @@
     
     .formulario {
         background-color: var(--gris);
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 10px;
         scroll-snap-align: center;
         scroll-snap-stop: always;
@@ -353,7 +353,7 @@
     .campo input[type="tel"],
     .campo input[type="mail"],
     .campo textarea {
-        width: 100%;
+        width: 98%;
         padding: .5rem;
         border: none;
         border-radius: .5rem;
@@ -370,7 +370,7 @@
     }
     
     .campo textarea {
-        height: 4rem;
+        height: 3rem;
     }
     
     .enviar {
