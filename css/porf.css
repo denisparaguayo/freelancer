@@ -147,6 +147,13 @@ header {
 .logo {
 	max-width: 100px;
 }
+.menu__text {
+	font-weight: var(--fw-bold);
+	color: var(--clr-lila);
+	text-transform: uppercase;
+	z-index: 10000;
+	padding-top: 5px;
+}
 
 .nav-toggle {
 	padding: 0.5em;
