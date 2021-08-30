@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<rss version="2.0">
+  <channel>
+    <title>-</title>
+    <link>https://webpy.xyz/</link>
+    <description />
+    <item>
+      <guid>https://webpy.xyz</guid>
+      <title>DevDenis Porfolio Website</title>
+      <link>https://webpy.xyz</link>
+      <description>Diseñador de Paginas Web en Paraguay,</description>
+    </item>
+    <item>
+      <guid>https://webpy.xyz/proyectos/portfolio-item</guid>
+      <title>DevDenis Porfolio Website</title>
+      <link>https://webpy.xyz/proyectos/portfolio-item</link>
+      <description>Diseñador de Paginas Web en Paraguay,</description>
+    </item>
+    <item>
+      <guid>https://webpy.xyz/</guid>
+      <title>DevDenis Porfolio Website</title>
+      <link>https://webpy.xyz/</link>
+      <description>Diseñador de Paginas Web en Paraguay,</description>
+    </item>
+  </channel>
+</rss>
